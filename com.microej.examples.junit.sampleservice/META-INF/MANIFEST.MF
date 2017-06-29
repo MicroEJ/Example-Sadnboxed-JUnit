@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Application-Id: JUnitSampleService
+Application-Version: 0.1.0
+Application-PrintableName: JUnitSampleService
+Application-Description: An example of JUnit tests
+Application-IconsDirectory: icons
+Application-BackgroundServices: com.microej.examples.junit.sampleservice.MyService
