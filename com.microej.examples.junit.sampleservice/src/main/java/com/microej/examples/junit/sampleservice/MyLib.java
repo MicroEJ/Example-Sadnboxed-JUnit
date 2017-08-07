@@ -7,7 +7,7 @@
 package com.microej.examples.junit.sampleservice;
 
 /**
- * The Library class to be tested. <br>
+ * The Library class to be tested. <br />
  * This class has obviously no other purpose than to be tested.
  *
  */
@@ -21,6 +21,7 @@ public class MyLib {
 	 * @return o.toString()
 	 * @throws NullPointerException
 	 *             if o is null.
+	 * @see Object#toString()
 	 */
 	public static String myToString(Object o) {
 		return "[" + o.toString() + "]"; //$NON-NLS-1$//$NON-NLS-2$
